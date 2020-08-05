@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projectmadlab"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:6:5-83
+12-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+13-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:7:6-87
+13-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:7:23-68
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <application
+22-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:9:5-31:19
+23        android:allowBackup="true"
+23-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:15:9-40
+32        <activity android:name="com.example.projectmadlab.detailhotel" />
+32-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:16:9-58
+32-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:16:19-46
+33        <activity android:name="com.example.projectmadlab.mybooking" />
+33-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:17:9-47
+33-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:17:19-44
+34        <activity android:name="com.example.projectmadlab.Homepages" />
+34-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:18:9-47
+34-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:18:19-44
+35        <activity android:name="com.example.projectmadlab.Register" />
+35-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:19:9-46
+35-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:19:19-43
+36        <activity android:name="com.example.projectmadlab.MainActivity" >
+36-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:20:9-26:20
+36-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:20:19-47
+37            <intent-filter>
+37-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:21:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:22:17-69
+38-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:24:17-77
+40-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <meta-data
+44-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:27:9-29:70
+45            android:name="com.google.android.geo.API_KEY"
+45-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:28:13-58
+46            android:value="AIzaSyDEpP_V44IIqSAwZgOyHkPhoO8RPdUDAFY" />
+46-->D:\SMT 4\projectttttt\ProjectMadLab\app\src\main\AndroidManifest.xml:29:13-68
+47
+48        <provider
+48-->[com.squareup.picasso:picasso:2.71828] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e64f308fdbea140f0058e438c1c3ea64\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+49            android:name="com.squareup.picasso.PicassoProvider"
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e64f308fdbea140f0058e438c1c3ea64\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+50            android:authorities="com.example.projectmadlab.com.squareup.picasso"
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e64f308fdbea140f0058e438c1c3ea64\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+51            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e64f308fdbea140f0058e438c1c3ea64\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+52        <uses-library
+52-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+53            android:name="org.apache.http.legacy"
+53-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+54            android:required="false" />
+54-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+55
+56        <activity
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+60
+61        <meta-data
+61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\83110deb08d3eece423d7609ec04c365\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+62            android:name="com.google.android.gms.version"
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\83110deb08d3eece423d7609ec04c365\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+63            android:value="@integer/google_play_services_version" />
+63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\83110deb08d3eece423d7609ec04c365\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+64    </application>
+65
+66</manifest>
